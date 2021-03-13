@@ -40,7 +40,14 @@ export const ShoppingCart = () => {
           </div>
           {/* PROCEED RESTART WINDOW FOR NOW */}
           <div className='total'>Total ${AppContext.total}.00</div>
-          <div className='proceed'>Proceed</div>
+          <div
+            onClick={() => {
+              window.location.reload();
+            }}
+            className='proceed'
+          >
+            Proceed
+          </div>
 
           {AppContext.cartItems.map(i => (
             <div className='cart-item'>

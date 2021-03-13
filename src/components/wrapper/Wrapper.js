@@ -50,8 +50,8 @@ export const Wrapper = () => {
 };
 export default Wrapper;
 
-// ADD EXIT BTNS
-// FOOTER
+// NO POPOUT ITEM MOBILE
+// NO SHOWCASE IMAGE MOBILE
 
 // PROPS PROJ -
 // MESSAGE APP
